@@ -27,8 +27,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
+          margin: `0 auto`,          
           padding: `var(--size-gutter)`,
         }}
       >
@@ -39,9 +38,7 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          © {new Date().getFullYear()} &middot; TRECFLOW                    
         </footer>
       </div>
     </>
