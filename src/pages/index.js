@@ -645,15 +645,7 @@ const IndexPage = () => (
             <a href="mailto:drjan@trecflow.com">
               <img src="https://img.icons8.com/metro/52/000000/open-envelope.png" />
             </a>
-          </div>
-          <div class="text-center">
-            <ul class="flex flex-wrap justify-center items-center">
-              <li class="m-10"></li>
-              <li class="m-10"></li>
-              <li class="m-10"></li>
-              <li class="m-10"></li>
-            </ul>
-          </div>
+          </div>          
         </div>
       </div>
     </section>
