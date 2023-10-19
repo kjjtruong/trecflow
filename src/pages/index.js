@@ -70,8 +70,7 @@ const moreLinks = [
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
 const IndexPage = () => (
-  <Layout>
-    <div className="flex flex-col flex-1 mx-auto w-full"></div>
+  <Layout>    
     {/* Hero */}
     <section className="relatve">
       {/**  Container **/}
