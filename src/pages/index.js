@@ -148,7 +148,7 @@ const IndexPage = () => (
         {/* -- Component -- */}
         <div className="grid grid-cols-1 items-center gap-12 sm:gap-20 lg:grid-cols-2">
           {/* -- Image Div -- */}
-          <div className="relative left-4 h-full max-h-[560px] w-[85%] md:left-0 md:w-[95%] lg:w-full">
+          <div className="relative left-4 h-full max-h-[560px] w-[85%] md:left-0 md:w-[95%] lg:w-full order-last lg:order-first">
             <StaticImage
               src="../images/jan-presentation-photo.jpeg"
               alt="Dr. Jan Jaffer doing a wellness presentation"
@@ -217,7 +217,7 @@ const IndexPage = () => (
         {/* -- Component -- */}
         <div className="grid grid-cols-1 items-center gap-12 sm:gap-20 lg:grid-cols-2">
           {/* -- Image Div -- */}
-          <div className="relative left-4 h-full max-h-[560px] w-[85%] md:left-0 md:w-[95%] lg:w-full">
+          <div className="relative left-4 h-full max-h-[560px] w-[85%] md:left-0 md:w-[95%] lg:w-full order-last lg:order-first">
             <StaticImage
               src="../images/cups-photo.jpeg"
               alt=""
@@ -252,7 +252,7 @@ const IndexPage = () => (
         <div className="grid grid-cols-1 items-center gap-12 sm:gap-20 lg:grid-cols-2">
           {/*<!-- Heading Div -->*/}
           <div className="max-w-[720px]">
-            <p className="text-lg mb-6 max-w-[480px] md:mb-10 lg:mb-12">
+            <p className="text-xl mb-6 max-w-[480px] md:mb-10 lg:mb-12">
               Jan regularly volunteers with Kindness in Action, Dentistry For
               All and the Alex Bus. He has been on 14 overseas dental missions
               to perform dentistry in remote communities in Guatemala, Peru,
@@ -290,7 +290,7 @@ const IndexPage = () => (
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-4 lg:gap-6 justify-items-center sm:justify-items-stretch">
-          <div className="bg-[#f2f2f7] rounded-md p-8 md:p-10 gap-0">
+          <div className="bg-black rounded-xl p-8 md:p-10 gap-0">
             <iframe
               src="https://open.spotify.com/embed/episode/41BsYnBUXXlTC4Z4E30l75?utm_source=generator&theme=0"
               width="100%"
@@ -301,7 +301,7 @@ const IndexPage = () => (
               loading="lazy"
             ></iframe>
           </div>
-          <div className="bg-[#f2f2f7] rounded-md p-8 md:p-10 gap-0">
+          <div className="bg-black rounded-xl p-8 md:p-10 gap-0">
             <iframe
               src="https://open.spotify.com/embed/episode/3tyrBzJjA6vmmBxSd9jI3t?utm_source=generator&theme=0"
               width="100%"
@@ -312,7 +312,7 @@ const IndexPage = () => (
               loading="lazy"
             ></iframe>
           </div>
-          <div className="bg-[#f2f2f7] rounded-md p-8 md:p-10 gap-0">
+          <div className="bg-black rounded-xl p-8 md:p-10 gap-0">
             <iframe
               src="https://open.spotify.com/embed/episode/2qcRhxZSVSzvi2iBqvDzvG?utm_source=generator&theme=0"
               width="100%"
@@ -323,7 +323,7 @@ const IndexPage = () => (
               loading="lazy"
             ></iframe>
           </div>
-          <div className="bg-[#f2f2f7] rounded-md p-8 md:p-10 gap-0">
+          <div className="bg-black rounded-xl p-8 md:p-10 gap-0">
             <iframe
               src="https://open.spotify.com/embed/episode/6DSTJxsWiSqe6IK377wsX0?utm_source=generator&theme=0"
               width="100%"
@@ -349,35 +349,35 @@ const IndexPage = () => (
           </h5>
         </div>
         <div className="grid max-[479px]:justify-items-start grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 sm:gap-12 md:gap-6">
-          <div className="flex items-center justify-start">
+          <div className="flex items-center justify-center">
             <StaticImage
               src="../images/logo-henry-schein.png"
               alt="Henry Schein logo"
               className="inline-block"
             />
           </div>
-          <div className="flex items-center justify-start">
+          <div className="flex items-center justify-center">
             <StaticImage
               src="../images/logo_aga_khan.png"
               alt="Aga Khan Foundation Logo"
               className="inline-block"
             />
           </div>
-          <div className="flex items-center justify-start">
+          <div className="flex items-center justify-center">
             <StaticImage
               src="../images/logo_my_bite.png"
               alt="MyBite Logo"
               className="inline-block"
             />
           </div>
-          <div className="flex items-center justify-start">
+          <div className="flex items-center justify-center">
             <StaticImage
               src="../images/logo_straumann.png"
               alt="Straumann Logo"
               className="inline-block"
             />
           </div>
-          <div className="flex items-center justify-start">
+          <div className="flex items-center justify-center">
             <StaticImage
               src="../images/logo_pacific_dental_conference.png"
               alt="Pacific Dental Conference logo"
@@ -398,7 +398,7 @@ const IndexPage = () => (
             Coaching & speaking
           </h5>
           <h2 className="font-bold text-3xl md:text-5xl mb-4 md:leading-tight">
-            Let TRECFLOW help you be better.
+            Help your team be better
           </h2>
           <div className="mb-8 md:mb-12 lg:mb-16">
             <p className="text-lg">
@@ -422,13 +422,13 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-4 lg:gap-6 justify-items-center sm:justify-items-stretch">
-          <div className="bg-[#f2f2f7] rounded-md p-8 md:p-10 gap-0">
+          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
               <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
-                Course
+                Speaking topic
               </p>
             </div>
-            <div className="mb-20 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <div className="mb-10 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
             <div className="max-w-lg">
               <p className="text-xl font-semibold">
                 Building the Ultimate Team
@@ -445,13 +445,13 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <div className="bg-[#f2f2f7] rounded-md p-8 md:p-10 gap-0">
+          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
               <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
-                Course
+                Speaking topic
               </p>
             </div>
-            <div className="mb-20 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <div className="mb-10 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
             <div className="max-w-lg">
               <p className="text-xl font-semibold">
                 5 Characteristics of an Ideal Team Member
@@ -470,13 +470,13 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <div className="bg-[#f2f2f7] rounded-md p-8 md:p-10 gap-0">
+          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
               <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
-                Course
+                Speaking topic
               </p>
             </div>
-            <div className="mb-20 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <div className="mb-10 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
             <div className="max-w-lg">
               <p className="text-xl font-semibold">
                 How Bonuses are detrimental to Organizations (and What You Can
@@ -496,13 +496,13 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <div className="bg-[#f2f2f7] rounded-md p-8 md:p-10 gap-0">
+          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
               <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
-                Course
+                Speaking topic
               </p>
             </div>
-            <div className="mb-20 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <div className="mb-10 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
             <div className="max-w-lg">
               <p className="text-xl font-semibold">Limitless Possibilities </p>
               <p className="text-[#636262]">
@@ -518,13 +518,13 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <div className="bg-[#f2f2f7] rounded-md p-8 md:p-10 gap-0">
+          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
               <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
-                Course
+                Speaking topic
               </p>
             </div>
-            <div className="mb-20 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <div className="mb-10 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
             <div className="max-w-lg">
               <p className="text-xl font-semibold">
                 Building a Values Based Organization
@@ -543,13 +543,13 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <div className="bg-[#f2f2f7] rounded-md p-8 md:p-10 gap-0">
+          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
               <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
-                Course
+                Speaking topic
               </p>
             </div>
-            <div className="mb-20 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <div className="mb-1  0 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
             <div className="max-w-lg">
               <p className="text-xl font-semibold">
                 Maximizing Your Dental Practice's Bottom Line: Strategies for
