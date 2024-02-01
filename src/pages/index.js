@@ -4,6 +4,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+
+
 const IndexPage = () => (
   <Layout>    
     {/* Hero */}
@@ -13,7 +15,7 @@ const IndexPage = () => (
         {/** Heading Div **/}
         <div className="mx-auto mb-12 w-full max-w-3xl text-center md:mb-16 lg:mb-20">
           <h1 className="text-white mb-4 text-4xl font-bold md:text-6xl leading-relaxed md:leading-tight">
-            Pushing every aspect of your life to be better
+            Pushing every aspect of your life and to be better
           </h1>
         </div>
         {/** Image Div **/}
@@ -202,13 +204,13 @@ const IndexPage = () => (
     {/* PODCASTS */}
     <section id="podcasts">
       {/* -- Container -- */}
-      <div className="py-16 md:py-24 lg:py-32 mx-auto w-full max-w-7xl px-5 md:px-10">
+      <div className="bg-black py-16 md:py-24 lg:py-32 mx-auto w-full max-w-7xl px-5 md:px-10">
         {/*-- Component -- */}
         <div className="mx-auto flex-col flex max-w-3xl items-center text-center mb-8 md:mb-12 lg:mb-16">
           <h5 className="mb-4 text-md font-semibold text-orange-500 uppercase">
             Podcasts & videos
           </h5>
-          <h2 className="font-bold text-3xl md:text-5xl md:leading-tight">
+          <h2 className="font-bold text-white text-3xl md:text-5xl md:leading-tight">
             Listen to past interviews
           </h2>
         </div>
@@ -345,68 +347,76 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-4 lg:gap-6 justify-items-center sm:justify-items-stretch">
-          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
+          <div className="bg-slate-100 rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
-              <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
+              <p className="mr-4 bg-blue-100 text-blue-600 px-4 py-2 font-semibold uppercase rounded-md">
                 Speaking topic
               </p>
             </div>
-            <div className="mb-10 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <StaticImage
+            src="../images/speaking-building-ultimate-team-crestmont.jpg"
+            alt=""
+            className="inline-block rounded-xl object-cover sm:rounded-2xl mt-4 mb-10"
+            />               
             <div className="max-w-lg">
-              <p className="text-xl font-semibold">
+              <p className="text-2xl font-semibold">
                 Building the Ultimate Team
               </p>
               <p className="text-[#636262]">
-                In the lecture, &apos;Building the Ultimate Team&apos;, Dr.
-                Jaffer explores the crucial elements required to establish a
-                successful dental team. Drawing from his extensive experience,
-                he discusses the importance of effective communication and
-                collaboration within the team to ensure optimal patient care and
-                satisfaction. Attendees will gain valuable insights on improving
-                teamwork, fostering a positive work environment, and ultimately
-                enhancing the overall success of their dental practices.
+                In the lecture, <strong>&apos;Building the Ultimate Team&apos;</strong>, Dr. Jaffer explores the crucial elements required to establish a successful dental team. Drawing from his extensive experience, he discusses the importance of effective communication and collaboration within the team to ensure optimal patient care and satisfaction. Attendees will gain valuable insights on improving teamwork, fostering a positive work environment, and ultimately enhancing the overall success of their dental practices.
               </p>
+              <p className="font-semibold text-blue-600">Course Objectives</p>
+              <ol className="list-decimal text-[#636262]">
+                <li>Identify the key components of a successful dental team and apply them to their own practices.</li>
+                <li>Evaluate their current level of communication and collaboration within their dental team and implement strategies to improve them.</li>
+                <li>Recognize the benefits of a positive work environment for their dental team and create action plans to enhance it.</li>
+              </ol>
             </div>
           </div>
-          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
+          <div className="bg-slate-100 rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
-              <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
+              <p className="mr-4 bg-blue-100 text-blue-600 px-4 py-2 font-semibold uppercase rounded-md">
                 Speaking topic
               </p>
             </div>
-            <div className="mb-10 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <StaticImage
+            src="../images/speaking-Ideal-team-cups-photo.jpg"
+            alt=""
+            className="inline-block rounded-xl object-cover sm:rounded-2xl mt-4 mb-10"
+            />               
             <div className="max-w-lg">
-              <p className="text-xl font-semibold">
+              <p className="text-2xl font-semibold">
                 5 Characteristics of an Ideal Team Member
               </p>
               <p className="text-[#636262]">
-                In the lecture, '5 Characteristics of an Ideal Team Member', Dr.
-                Jaffer uncovers the essential traits that contribute to the
-                success of a team member. Drawing upon real-life examples and
-                research, he delves into qualities such as reliability,
-                adaptability, strong communication skills, accountability, and a
-                positive attitude that are vital for individuals seeking to
-                become valuable assets in any team setting. Attendees can expect
-                to gather practical insights and strategies to identify and
-                develop these characteristics, ultimately fostering a highly
-                effective and harmonious team environment.
+              In the lecture, <strong>&apos;5 Characteristics of an Ideal Team Member&apos;</strong>, Dr. Jaffer uncovers the essential traits that contribute to the success of a team member. Drawing upon real-life examples and research, he delves into qualities such as reliability, adaptability, strong communication skills, accountability, and a positive attitude that are vital for individuals seeking to become valuable assets in any team setting. Attendees can expect to gather practical insights and strategies to identify and develop these characteristics, ultimately fostering a highly effective and harmonious team environment.
               </p>
+              <p className="font-semibold text-blue-600">Course Objectives</p>
+              <ol className="list-decimal text-[#636262]">
+                <li>Identify the five characteristics of an ideal team member and explain why they are important for team success.</li>
+                <li>Assess their own strengths and weaknesses as a team member and develop a personal action plan to improve their performance.</li>
+                <li>Apply the practical insights and strategies learned from the lecture to enhance their communication, collaboration, and problem-solving skills in a team setting.</li>
+              </ol>
             </div>
           </div>
-          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
+          <div className="bg-slate-100 rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
-              <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
+              <p className="mr-4 bg-blue-100 text-blue-600 px-4 py-2 font-semibold uppercase rounded-md">
                 Speaking topic
               </p>
             </div>
-            <div className="mb-10 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <StaticImage
+            src="../images/speaking-bonuses-detrimental-retreat.jpg"
+            alt=""
+            className="inline-block rounded-xl object-cover sm:rounded-2xl mt-4 mb-10"
+            />               
             <div className="max-w-lg">
-              <p className="text-xl font-semibold">
-                How Bonuses are detrimental to Organizations (and What You Can
+              <p className="text-2xl font-semibold">
+                How Bonuses are Detrimental to Organizations (and What You Can
                 Do Instead)
               </p>
               <p className="text-[#636262]">
-                In the lecture, 'How Bonuses are Detrimental to Organizations',
+                In the lecture, <strong>&apos;How Bonuses are Detrimental to Organizations&apos;</strong>,
                 Dr. Jan Jaffer, challenges the traditional belief that bonuses
                 are effective motivators for employees. Through extensive
                 research and case studies, he explores the unintended
@@ -417,19 +427,29 @@ const IndexPage = () => (
                 approaches to cultivate a more engaged and sustainable
                 organizational culture.
               </p>
+              <p className="font-semibold text-blue-600">Course Objectives</p>
+              <ol className="list-decimal text-[#636262]">
+                <li>Recognize the drawbacks of bonus systems and understand how they can negatively affect employee motivation, performance, and well-being.</li>
+                <li>Compare and contrast different types of incentives and their impact on organizational culture and outcomes.</li>
+                <li>Design and implement more effective and ethical incentivization strategies that align with the organization’s vision, values, and goals.</li>
+              </ol>
             </div>
           </div>
-          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
+          <div className="bg-slate-100 rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
-              <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
+              <p className="mr-4 bg-blue-100 text-blue-600 px-4 py-2 font-semibold uppercase rounded-md">
                 Speaking topic
               </p>
             </div>
-            <div className="mb-10 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <StaticImage
+            src="../images/speaking-limitless-possibilities-guatemala.jpg"
+            alt=""
+            className="inline-block rounded-xl object-cover sm:rounded-2xl mt-4 mb-10"
+            />               
             <div className="max-w-lg">
-              <p className="text-xl font-semibold">Limitless Possibilities </p>
+              <p className="text-2xl font-semibold">Limitless Possibilities </p>
               <p className="text-[#636262]">
-                In the captivating lecture, 'Limitless Possibilities', Dr.
+                In the captivating lecture, <strong>&apos;Limitless Possibilities&apos;</strong>, Dr.
                 Jaffer takes attendees on a transformative journey to unlock
                 their full potential. Drawing from personal experiences and
                 cutting-edge research, Dr. Jaffer explores the power of mindset,
@@ -439,22 +459,32 @@ const IndexPage = () => (
                 obstacles, pursue their dreams, and create a future filled with
                 limitless possibilities.
               </p>
+              <p className="font-semibold text-blue-600">Course Objectives</p>
+              <ol className="list-decimal text-[#636262]">
+                <li>Identify and challenge their limiting beliefs and adopt a growth mindset that enables them to learn and grow from any situation.</li>
+                <li>Develop and apply resilience skills to cope with stress, adversity, and change, and bounce back stronger and wiser.</li>
+                <li>Embrace uncertainty as an opportunity for innovation and discovery, and take action towards their goals despite fear and doubt.</li>
+              </ol>
             </div>
           </div>
-          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
+          <div className="bg-slate-100 rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
-              <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
+              <p className="mr-4 bg-blue-100 text-blue-600 px-4 py-2 font-semibold uppercase rounded-md">
                 Speaking topic
               </p>
             </div>
-            <div className="mb-10 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <StaticImage
+            src="../images/speaking-values-based-organization-retreat.jpg"
+            alt=""
+            className="inline-block rounded-xl object-cover sm:rounded-2xl mt-4 mb-10"
+            />               
             <div className="max-w-lg">
-              <p className="text-xl font-semibold">
+              <p className="text-2xl font-semibold">
                 Building a Values Based Organization
               </p>
               <p className="text-[#636262]">
-                In the enlightening lecture, 'Building a Values Based
-                Organization', Dr. Jaffer delves into the significance of
+                In the enlightening lecture, <strong>&apos;Building a Values Based
+                Organization&apos;</strong>, Dr. Jaffer delves into the significance of
                 establishing a culture rooted in strong values within dental
                 practices. Drawing from firsthand experience and case studies,
                 he highlights how aligning organizational values with the
@@ -464,17 +494,27 @@ const IndexPage = () => (
                 that fosters teamwork, ethical decision-making, and long-term
                 success in the dental field.
               </p>
+              <p className="font-semibold text-blue-600">Course Objectives</p>
+              <ol className="list-decimal text-[#636262]">
+                <li>Define and articulate their personal and professional values and align them with the organizational values of their dental practice.</li>
+                <li>Demonstrate how values-based leadership and management can improve patient satisfaction, employee retention, and organizational performance.</li>
+                <li>Apply the best practices and tools for creating a values-based culture that supports teamwork, ethical decision-making, and long-term success in the dental field.</li>
+              </ol>
             </div>
           </div>
-          <div className="bg-[#f2f2f7] rounded-xl p-8 md:p-10 gap-0">
+          <div className="bg-slate-100 rounded-xl p-8 md:p-10 gap-0">
             <div className="flex-row flex items-center justify-between">
-              <p className="mr-4 bg-[#c4c4c4] px-4 py-2 font-semibold uppercase rounded-md">
+              <p className="mr-4 bg-blue-100 text-blue-600 px-4 py-2 font-semibold uppercase rounded-md">
                 Speaking topic
               </p>
             </div>
-            <div className="mb-1  0 mt-4 w-full bg-[#c4c4c4] h-0.5"></div>
+            <StaticImage
+            src="../images/speaking-maximizing-dental-practice-presentation.jpg"
+            alt=""
+            className="inline-block rounded-xl object-cover sm:rounded-2xl mt-4 mb-10"
+            />               
             <div className="max-w-lg">
-              <p className="text-xl font-semibold">
+              <p className="text-2xl font-semibold">
                 Maximizing Your Dental Practice's Bottom Line: Strategies for
                 Financial Success
               </p>
@@ -490,6 +530,65 @@ const IndexPage = () => (
                 technology to streamline operations, and optimizing the
                 contribution of your team members.
               </p>
+              <p className="font-semibold text-blue-600">Course Objectives</p>
+              <ol className="list-decimal text-[#636262]">
+                <li>Acquire an in-depth understanding of the role of KPIs in driving practice success and profitability.</li>
+                <li>Explore various technological advancements and their potential impact on enhancing operational efficiency and patient outcomes.</li>
+                <li>Learn strategies to effectively manage and leverage the skills and contributions of team members to maximize practice profitability.</li>
+                <li>Gain practical insights and resources to implement immediate changes within their dental practice to improve financial results.</li>
+              </ol>
+            </div>
+          </div>
+          <div className="bg-slate-100 rounded-xl p-8 md:p-10 gap-0">
+            <div className="flex-row flex items-center justify-between">
+              <p className="mr-4 bg-blue-100 text-blue-600 px-4 py-2 font-semibold uppercase rounded-md">
+                Speaking topic
+              </p>
+            </div>
+            <StaticImage
+            src="../images/speaking-exception-customer-service-crestmont.jpg"
+            alt=""
+            className="inline-block rounded-xl object-cover sm:rounded-2xl mt-4 mb-10"
+            />               
+            <div className="max-w-lg">
+              <p className="text-2xl font-semibold">
+                Exceptional Customer Service Through Building Trusting Relationships
+              </p>
+              <p className="text-[#636262]">
+                Exceptional customer service is not only about meeting customer expectations, but also about building meaningful connections with them. By establishing trust, you can create loyal customers who will advocate for your brand and return for more business.
+              </p>
+              <p className="font-semibold text-blue-600">Course Objectives</p>
+              <ol className="list-decimal text-[#636262]">
+                <li>Communicate your values: Customers want to do business with companies that share their values and beliefs. By communicating your mission, vision, and core values, you can show customers what you stand for and how you can help them achieve their goals.</li>
+                <li>Activate loyalists to help spread the word: Customers trust recommendations from their peers more than any other source of information. By encouraging your loyal customers to share their positive experiences with your brand, you can increase your referrals.</li>
+                <li>Connect in a deeper way: Customers want to feel like they are more than just a transaction. By connecting with them on a personal and emotional level, you can create a lasting bond and a sense of belonging. You can do this by sharing stories, celebrating milestones, and expressing empathy.</li>                
+              </ol>
+            </div>
+          </div>
+          <div className="bg-slate-100 rounded-xl p-8 md:p-10 gap-0">
+            <div className="flex-row flex items-center justify-between">
+              <p className="mr-4 bg-blue-100 text-blue-600 px-4 py-2 font-semibold uppercase rounded-md">
+                Speaking topic
+              </p>
+            </div>
+            <StaticImage
+            src="../images/speaking-art-persuasion-auburn.jpg"
+            alt=""
+            className="inline-block rounded-xl object-cover sm:rounded-2xl mt-4 mb-10"
+            />               
+            <div className="max-w-lg">
+              <p className="text-2xl font-semibold">
+                The Art of Persuasion: Ethical Strategies for Achieving 100% Case Acceptance in Dentistry
+              </p>
+              <p className="text-[#636262]">
+                This course aims to help dentists improve their communication skills and increase their case acceptance rate by applying the principles of ethical persuasion. The book covers topics such as the psychology of persuasion, the art of storytelling, and the power of questions. This course is intended for dentists who want to grow their practice, enhance their reputation, and serve their patients better. By mastering the art of persuasion, dentists can achieve 100% case acceptance in dentistry without compromising their ethics or integrity.
+              </p>
+              <p className="font-semibold text-blue-600">Course Objectives</p>
+              <ol className="list-decimal text-[#636262]">
+                <li>Understand the importance of 100% case acceptance in dentistry and its impact on patient satisfaction and practice growth. </li>
+                <li>Learn ethical strategies to effectively communicate treatment plans to patients without resorting to pushy sales tactics.</li>
+                <li>Discover practical techniques and tools to build trust with patients, ensuring higher case acceptance rates and long-term patient loyalty.</li>                
+              </ol>
             </div>
           </div>
         </div>
