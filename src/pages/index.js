@@ -15,7 +15,7 @@ const IndexPage = () => (
         {/** Heading Div **/}
         <div className="mx-auto mb-12 w-full max-w-3xl text-center md:mb-16 lg:mb-20">
           <h1 className="text-white mb-4 text-4xl font-bold md:text-6xl leading-relaxed md:leading-tight">
-            Pushing every aspect of your life and to be better
+            Pushing every aspect of your life to be better
           </h1>
         </div>
         {/** Image Div **/}
