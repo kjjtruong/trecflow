@@ -10,9 +10,9 @@
 module.exports = {
   siteMetadata: {
     title: `TRECFLOW`,
-    description: `This is TRECFLOW`,
+    description: `This is TRECFLOW. The personal website of Dr. Jan Jaffer`,
     author: `Dr. Jan Jaffer`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://trecflowcom`,
   },
   plugins: [
     `gatsby-plugin-image`,
