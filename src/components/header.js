@@ -19,7 +19,7 @@ function Header() {
     <header className="sticky top-0 z-40">      
       <div className="flex bg-black flex-wrap items-center justify-between w-screen mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Link className="no-underline" to="/">        
-          <span className="text-2xl text-white font-bold tracking-wide border-4 p-2">{data.site.siteMetadata.title}</span>
+          <span className="text-2xl text-white font-bold tracking-wide border-4 border-orange-500 p-2">{data.site.siteMetadata.title}</span>
         </Link>
 
         <button
@@ -64,7 +64,7 @@ function Header() {
             </Link>
           ))}
           <a
-            className="uppercase block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline py-1 px-3 rounded-full font-semibold outline-2 outline-offset-2 transition-colors text-zinc-900 bg-white hover:bg-zinc-600 active:bg-white-800 active:text-zinc-100"
+            className="uppercase block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline py-1 px-3 rounded-full font-semibold outline-2 outline-offset-2 transition-colors text-white bg-orange-500 hover:bg-white-600 active:bg-white-800 active:text-zinc-100"
             href="mailto:drjan@trecflow.com"    
           >
             Contact Me

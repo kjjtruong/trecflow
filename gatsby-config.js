@@ -10,7 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: `TRECFLOW`,
-    description: `This is TRECFLOW. The personal website of Dr. Jan Jaffer`,
+    description: `This is TRECFLOW. The website of Dr. Jan Jaffer. Helping push every aspect of your life to be better`,
     author: `Dr. Jan Jaffer`,
     siteUrl: `https://trecflowcom`,
   },
@@ -36,7 +36,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/trec-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/trecflow_favicon.png`, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-postcss',
